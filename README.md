@@ -1,55 +1,39 @@
-# Publish your Obsidian Notes
+# What am I
+Welcome to the KnowledgeBase repository! \
 
-(MkDocs template)
+Here you will find a collection of guides and documentation for setting up various software and programs. 
+The goal of this repository is to provide a central resource for all of your setup needs, so you don't have to spend time searching for information online. Whether you're a beginner or an experienced user, you'll find valuable information and step-by-step instructions to help you get your software up and running smoothly.
 
-Would you like to take _some_ of your notes in [Obsidian](https://obsidian.md/) and make it public?
+# What you can find here
+A quick overview of the guide I currently have available.
+## 11 Organize
+[[11.01 JohnnyDecimal System]]
 
-This template gives you an easy (and automated) way to publish your Obsidian notes on your Github pages.
+## 12 Software
+### 12.01 Obsidian
+A quick start guide into [Obsidian](https://obsidian.md/) the note taking program
 
-With this template, you get these **out-of-the-box**:
+12.02 UnRaid
 
-- an awesome website based on Material theme, complete with a search bar (Checkout this template repo published [here](https://jobindjohn.github.io/obsidian-publish-mkdocs/))
-![](2021-11-22-22-49-26.png)
-- get the Obsidian/Roam style `[[wikilinks]]` from your vault in your published notes
-- Toggle between light and dark mode
+This would be called the docker folder but we aint broke anymore and Unraid templates control my life. Mainly docker containers with guides on how to install them on Unraid using docker templates.
 
-## Quick start
+12.03 Windows Subsystem for Android
+A guide on how to use the Windows Subsystem for Android, because who the fuck wants to use only the Amazon app store on windows. Of course you can emulate but this is my guide not yours.
 
-1. Create a **new github repository using this template**. Click the green button at the top or use [this link](https://github.com/jobindjohn/obsidian-publish-mkdocs/generate). 
+12.04 RouterOS
+A guide on how to configure RouterOS because you need an actual PhD for this one.
 
-![](2021-11-22-22-54-02.png)
+13 Basic,.l;[]
 
-2.  **Give a name** to your repository. By default your notes will be published at `<https://username.github.io/repo-name/>`
-     - Copy only the `main` branch while creating the repo from the template
-3. **Clone** the repository you generated **into your Obsidian folder/vault.**
-4. **Move your notes** that you would like to make public to the `repo-name/docs` folder.
-    - Easiest way to do this would be using drag and drop within Obsidian
-5. Commit and **push** the changes. Github actions will take care of the rest, publishing your notes using [MkDocs](https://www.mkdocs.org/), with the [Material theme](https://squidfunk.github.io/mkdocs-material/). 
-6. Go to `Settings > Pages` and select the select the **Source** as your `gh-pages` branch.
+# Thanks
+This is a link to the authors and researchers who publish the material I steal. Without them, the world would be a lot harder.
 
-![](2021-11-22-22-52-49.png)
+## Obsidian Publish MkDocs
+The reason this repo has an easy to upload path for GitHub pages.
 
-**Not working for you?** Open an [issue](https://github.com/jobindjohn/obsidian-publish-mkdocs/issues/new/choose) and let me know what went wrong.
+obsidian-publish-mkdocs by - [jobindjohn](https://github.com/jobindjohn)
+You can clone their repo too [here](https://github.com/jobindjohn/obsidian-publish-mkdocs)
 
-## Configuring your website
+## ChatGPT
 
-### How do I arrange notes as sections and pages?
-
-By default, the sections and pages will follow the folder structure within `/docs`. The folders and sub-folders will show up as sections. Try not to have white spaces in your folder and file names, as these will be converted to HTML links. The webpage heading will be the same as the first-level heading in the markdown note.
-
-- If you would like to arrange the pages manually, then use the `nav` option in the `mkdocs.yml` [configuration file](https://www.mkdocs.org/#adding-pages) at the root of this repo  to set custom page navigation.
-    - For example, see the setup for [the Blue Book](https://lyz-code.github.io/blue-book/) at [github](https://github.com/lyz-code/blue-book/blob/master/mkdocs.yml). Managing each page using `nav` can become cumbersome as the number of notes increase though!
-- The Materials theme provides multiple options to arrange [sections](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-sections), use [navigation tabs](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-tabs), and many other helpful [navigation setups](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/)
-
-## Alternatives
-
-- [kmaasrud/oboe](https://github.com/kmaasrud/oboe): tool to convert an Obsidian vault into a static directory of HTML files.
-- [Jackiexiao/foam-mkdocs-template](https://github.com/Jackiexiao/foam-mkdocs-template): template for Obsidian/Foam using mkdocs/mkdocs-material/mkdocs-roamlinks-plugin
-- [foambubble/foam-template](https://github.com/foambubble/foam-template): Foam workpace template
-- [ObsidianPublisher/obsidian-mkdocs-publisher-template](https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template): Obsidian Mkdocs Publisher, a free obsidian publish alternative throught Mkdocs
-
-## Other interesting projects
-
-- [mathieudutour/gatsby-digital-garden: digital garden with Gatsby](https://github.com/mathieudutour/gatsby-digital-garden)
-- [TuanManhCao/digital-garden: Free Obisidian Publish alternative](https://github.com/TuanManhCao/digital-garden)
-
+Shoutout to them at [OpenAI](https://openai.com/) for creating something so stupidly advance. Without them I would have failed my Biology course and this readme would have no description.
